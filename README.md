@@ -1,8 +1,6 @@
 ====================================================
-🐍 MY PYTHON LEARNING JOURNEY
+🐍 WRITING PYTHON FOR CYBER
 ======================================================
-
-Welcome to my personal Python learning repository!
 
 This repo documents my progress from complete beginner to building real, security-related projects — step by step. 
 Each stage reflects a mix of learning, experimenting, and hands-on coding.
@@ -48,25 +46,25 @@ Each stage reflects a mix of learning, experimenting, and hands-on coding.
 
 SETUP & BASICS
 --------------
-Day 1:
+Lab 1:
   - Installed Python, VS Code, and WSL.
   - Learned print(), variables, input(), and basic maths.
 
 LOGIC & FLOW
 -------------
-Day 2:
+Lab 2:
   - Learned if, elif, else for decision-making.
   - Built a simple login check program.
 
 LOOPS & FUNCTIONS
 -----------------
-Day 3:
+Lab 3:
   - Practised for and while loops.
   - Created reusable functions using def.
 
 SECURE CODING
 -------------
-Day 4:
+Lab 4:
   - Learned what password hashing is and why it’s vital for security.
   - Explored the `hashlib` module for creating secure SHA-256 hashes.
   - Created a reusable `hash_password()` function.
@@ -75,7 +73,7 @@ Day 4:
 
 DATA SECURITY & STORAGE
 -----------------------
-Day 5:
+Lab 5:
   - Discovered “salting” — adding unique random data to each password hash.
   - Used Python’s `os.urandom()` and `binascii` to generate salts.
   - Switched from `.txt` to a `.json` file for structured, safer storage.
@@ -84,7 +82,7 @@ Day 5:
 
 CYBERSECURITY TOOLS
 -------------------
-Day 6:
+Lab 6:
   - Learned how password leak databases (like *Have I Been Pwned*) work.
   - Used Python’s `requests` library to access the Pwned Passwords API.
   - Implemented a local, privacy-safe password checker.
@@ -93,7 +91,7 @@ Day 6:
 
 ENCRYPTION BASICS
 -----------------
-Day 7:
+Lab 7:
   - Learned difference between hashing (one-way) and encryption (two-way).
   - Installed and used the `cryptography` library.
   - Implemented key generation, encryption, and decryption.
@@ -101,7 +99,7 @@ Day 7:
 
 FILE ENCRYPTION
 ---------------
-Day 8:
+Lab 8:
   - Learned how to encrypt and decrypt entire files.
   - Used `cryptography.Fernet` for symmetric file encryption.
   - Practised reading/writing binary data safely.
@@ -110,7 +108,7 @@ Day 8:
 
 MULTI-USER ENCRYPTED STORAGE
 ----------------------------
-Day 9:
+Lab 9:
   - Combined password hashing, salting, JSON storage, and Fernet encryption.
   - Built a multi-user login system with individual encryption keys.
   - Implemented file encryption and decryption per user.
@@ -119,7 +117,7 @@ Day 9:
 
 SECURE FILE SHARING & ACCESS LOGGING
 ------------------------------------
-Day 10:
+Lab 10:
   - Built a secure file sharing system with access logs.
   - Learned to record user actions (encryption, decryption, sharing).
   - Added multi-user file sharing functionality.
@@ -128,7 +126,7 @@ Day 10:
 
 SECURE CLOUD STORAGE & KEY MANAGEMENT
 -------------------------------------
-Day 11:
+Lab 11:
   - Learned how to manage encryption keys securely for each user.
   - Built a local “cloud” storage system using encrypted file uploads.
   - Implemented key generation, loading, and revocation.
@@ -137,7 +135,7 @@ Day 11:
 
 TWO-FACTOR AUTHENTICATION (2FA)
 -------------------------------
-Day 12:
+Lab 12:
   - Implemented Two-Factor Authentication (2FA) using time-based one-time passwords (TOTP).
   - Used the `pyotp` library to generate and verify 6-digit codes.
   - Integrated OTP verification with existing login systems.
@@ -146,7 +144,7 @@ Day 12:
 
 ENCRYPTED MESSAGING SYSTEM
 --------------------------
-Day 13:
+Lab 13:
   - Learned asymmetric encryption (RSA public/private key cryptography).
   - Built a secure encrypted messaging system between two users.
   - Implemented key generation, message encryption, and decryption.
@@ -155,7 +153,7 @@ Day 13:
 
 DIGITAL SIGNATURES & MESSAGE AUTHENTICATION
 -------------------------------------------
-Day 14:
+Lab 14:
   - Learned how to digitally sign messages using RSA private keys.
   - Built a system to verify message authenticity with public keys.
   - Implemented SHA-256 hashing and PSS padding for secure signatures.
@@ -164,7 +162,7 @@ Day 14:
 
 SECURE FILE TRANSFER SYSTEM
 ---------------------------
-Day 15:
+Lab 15:
   - Combined encryption and digital signatures into one workflow.
   - Built a secure file transfer system similar to HTTPS principles.
   - Encrypted files using Fernet (symmetric key) and protected the key with RSA.
@@ -173,7 +171,7 @@ Day 15:
 
 SECURE REAL-TIME CHAT SYSTEM
 ----------------------------
-Day 16:
+Lab 16:
   - Learned socket programming and network communication basics.
   - Built a local encrypted chat system between two users.
   - Implemented symmetric encryption (Fernet) for message security.
@@ -182,7 +180,7 @@ Day 16:
 
 SECURE EMAIL SYSTEM (ENCRYPTION + SIGNATURES)
 ---------------------------------------------
-Day 17:
+Lab 17:
   - Combined encryption, digital signatures, and storage into one workflow.
   - Built a local secure email system with inbox/outbox simulation.
   - Used RSA for key exchange and Fernet for message encryption.
@@ -191,7 +189,7 @@ Day 17:
 
 SECURE FILE VAULT (PASSWORD-PROTECTED STORAGE)
 ----------------------------------------------
-Day 18:
+Lab 18:
   - Learned how to turn passwords into encryption keys using PBKDF2.
   - Built a secure file vault protected by a master password.
   - Implemented encryption and decryption using Fernet keys derived from a password.
@@ -200,7 +198,7 @@ Day 18:
 
 SECURE KEYCHAIN & PASSWORD MANAGER
 ----------------------------------
-Day 19:
+Lab 19:
   - Built a local, encrypted password manager protected by a master password.
   - Used PBKDF2 to derive a cryptographic key from the master password.
   - Encrypted all saved passwords using Fernet symmetric encryption.
@@ -209,7 +207,7 @@ Day 19:
 
 SECURE NOTES APP (ENCRYPTED TEXT STORAGE)
 -----------------------------------------
-Day 20:
+Lab 20:
   - Created a secure note-taking system with full encryption.
   - Implemented password-based key derivation using PBKDF2.
   - Encrypted and decrypted note content with Fernet.
