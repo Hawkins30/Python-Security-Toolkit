@@ -1,4 +1,3 @@
-# encrypted_messaging.py
 # Secure messaging system using RSA public/private key encryption
 
 import os
