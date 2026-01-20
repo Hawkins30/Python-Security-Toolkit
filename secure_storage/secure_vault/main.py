@@ -1,4 +1,3 @@
-# secure_vault.py
 # Password-Protected Secure File Vault
 
 import os
