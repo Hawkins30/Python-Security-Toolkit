@@ -1,4 +1,4 @@
-# client.py - Secure Chat Client
+# Secure Chat Client
 
 import socket
 from cryptography.fernet import Fernet
