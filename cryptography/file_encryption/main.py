@@ -1,4 +1,3 @@
-# file_encryption.py
 # Encrypt and decrypt text files using Fernet symmetric encryption
 
 from cryptography.fernet import Fernet
