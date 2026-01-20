@@ -1,4 +1,3 @@
-# file_integrity_checker.py
 # Checks if a file has changed by comparing SHA256 hashes.
 
 import hashlib
