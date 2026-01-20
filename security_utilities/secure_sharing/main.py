@@ -1,4 +1,3 @@
-# secure_sharing.py
 # Multi-user file sharing with encryption and access logging
 
 import os
