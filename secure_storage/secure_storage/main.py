@@ -1,4 +1,3 @@
-# secure_storage.py
 # Multi-user encrypted file storage system
 
 import os
