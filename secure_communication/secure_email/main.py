@@ -1,4 +1,3 @@
-# secure_email.py
 # Secure Email System: Encryption + Digital Signatures
 
 import os
