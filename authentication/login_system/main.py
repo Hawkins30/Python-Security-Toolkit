@@ -1,4 +1,3 @@
-# simple_login.py
 # A very simple login system using a text file for user storage.
 
 def register_user():
