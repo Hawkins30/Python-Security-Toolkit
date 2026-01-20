@@ -1,4 +1,3 @@
-# secure_notes.py
 # Secure Notes App - Encrypted Text Storage
 
 import os
