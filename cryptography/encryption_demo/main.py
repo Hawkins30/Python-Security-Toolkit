@@ -1,4 +1,3 @@
-# encryption_demo.py
 # Simple encryption and decryption demo using Fernet
 
 from cryptography.fernet import Fernet
