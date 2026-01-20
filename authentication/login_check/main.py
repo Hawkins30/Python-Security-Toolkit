@@ -1,4 +1,4 @@
-# login_check.py
+# login_check
 
 password = input("Enter the password: ")
 
