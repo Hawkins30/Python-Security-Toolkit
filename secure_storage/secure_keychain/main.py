@@ -1,4 +1,3 @@
-# secure_keychain.py
 # Password-Protected Encrypted Password Manager
 
 import os
