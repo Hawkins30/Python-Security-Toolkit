@@ -1,4 +1,3 @@
-# cloud_storage.py
 # Secure cloud-like storage and key management system
 
 import os
