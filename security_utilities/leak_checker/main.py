@@ -1,4 +1,3 @@
-# leak_checker.py
 # Password Leak Checker using Have I Been Pwned API
 
 import hashlib
