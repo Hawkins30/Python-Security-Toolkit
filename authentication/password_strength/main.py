@@ -1,4 +1,4 @@
-# password_strength.py
+# password_strength
 
 def check_password(password):
     if len(password) < 8:
