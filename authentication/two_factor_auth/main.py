@@ -1,4 +1,3 @@
-# two_factor_auth.py
 # Two-Factor Authentication (2FA) system using pyotp
 
 import os
