@@ -1,4 +1,3 @@
-# secure_file_transfer.py
 # Combines encryption, digital signatures, and verification
 
 import os
