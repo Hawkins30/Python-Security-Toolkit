@@ -1,4 +1,3 @@
-# salted_login.py
 # Secure login system with hashing, salting, and JSON storage
 
 import hashlib
