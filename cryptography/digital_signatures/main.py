@@ -1,4 +1,3 @@
-# digital_signatures.py
 # Digital Signature and Message Authentication System
 
 import os
